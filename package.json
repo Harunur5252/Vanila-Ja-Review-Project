@@ -1,0 +1,20 @@
+{
+  "name": "Reviews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harunur5252/Vanila-Ja-Review-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harunur5252/Vanila-Ja-Review-Project/issues"
+  },
+  "homepage": "https://github.com/Harunur5252/Vanila-Ja-Review-Project#readme"
+}
