@@ -1,10 +1,15 @@
 {
-  "name": "Reviews",
+  "name": "my-webpack-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "My webpack project",
   "main": "main.js",
   "scripts": {
-    "start": "json-server --watch server/db.json"
+    "start": "json-server --watch server/db.json",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
   },
   "repository": {
     "type": "git",
@@ -16,5 +21,18 @@
   "bugs": {
     "url": "https://github.com/Harunur5252/Vanila-Ja-Review-Project/issues"
   },
-  "homepage": "https://github.com/Harunur5252/Vanila-Ja-Review-Project#readme"
+  "homepage": "https://github.com/Harunur5252/Vanila-Ja-Review-Project#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.9",
+    "@webpack-cli/generators": "^2.2.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "prettier": "^2.3.2",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
 }
